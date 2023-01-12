@@ -15,7 +15,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="COMFORT"
+            android:text="WEATHER"
             android:textSize="35dp"
             android:textColor="@color/black"
             android:layout_marginTop="30dp"
@@ -31,26 +31,26 @@
             android:gravity="center">
 
             <Button
-                android:id="@+id/button_Comfort_O2_id"
+                android:id="@+id/button_Weather_AP_id"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:height="150dp"
                 android:width="150dp"
                 android:layout_marginRight="35dp"
                 android:layout_gravity="left"
-                android:text="02"
+                android:text="Atmospheric pressure"
                 android:textSize="14dp"
                 android:backgroundTint="#FF5733">
             </Button>
 
             <Button
-                android:id="@+id/button_Comfort_LUMINOSITY_id"
+                android:id="@+id/button_Weather_UV_id"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:height="150dp"
                 android:width="150dp"
                 android:layout_gravity="left"
-                android:text="Luminosity"
+                android:text="UV"
                 android:textSize="14dp"
                 android:backgroundTint="#FF5733">
             </Button>
@@ -64,7 +64,7 @@
             android:gravity="center">
 
             <Button
-                android:id="@+id/button_Comfort_TEMPERATURE_id"
+                android:id="@+id/button_Weather_TEMPERATURE_id"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:height="150dp"
@@ -77,13 +77,13 @@
             </Button>
 
             <Button
-                android:id="@+id/button_Comfort_HUMIDITY_id"
+                android:id="@+id/button_Weather_ANEMOMETER_id"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:height="150dp"
                 android:width="150dp"
                 android:layout_gravity="left"
-                android:text="Humidity"
+                android:text="Anemometer"
                 android:textSize="14dp"
                 android:backgroundTint="#FF5733">
             </Button>
