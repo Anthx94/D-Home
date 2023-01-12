@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".security"
     android:background="#7393B3">
 
     <LinearLayout
@@ -15,7 +15,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="WEATHER"
+            android:text="SECURITY"
             android:textSize="35dp"
             android:textColor="@color/black"
             android:layout_marginTop="30dp"
@@ -23,72 +23,33 @@
         </TextView>
 
 
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="110dp"
-            android:gravity="center">
-
             <Button
-                android:id="@+id/button_Weather_AP_id"
+                android:id="@+id/button_Security_CAMERA_id"
+                android:layout_marginTop="110dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:height="150dp"
                 android:width="150dp"
-                android:layout_marginRight="35dp"
-                android:layout_gravity="left"
-                android:text="Atmospheric pressure"
+                android:layout_gravity="center"
+                android:text="Camera"
                 android:textSize="14dp"
                 android:backgroundTint="#FF5733">
             </Button>
 
             <Button
-                android:id="@+id/button_Weather_UV_id"
+                android:id="@+id/button_Security_SOUND_id"
+                android:layout_marginTop="35dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:height="150dp"
                 android:width="150dp"
-                android:layout_gravity="left"
-                android:text="UV"
+                android:layout_gravity="center"
+                android:text="Sound"
                 android:textSize="14dp"
                 android:backgroundTint="#FF5733">
             </Button>
 
-        </TableRow>
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="35dp"
-            android:gravity="center">
-
-            <Button
-                android:id="@+id/button_Weather_TEMPERATURE_id"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:height="150dp"
-                android:width="150dp"
-                android:layout_marginRight="35dp"
-                android:layout_gravity="left"
-                android:text="Temperature"
-                android:textSize="14dp"
-                android:backgroundTint="#FF5733">
-            </Button>
-
-            <Button
-                android:id="@+id/button_Weather_ANEMOMETER_id"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:height="150dp"
-                android:width="150dp"
-                android:layout_gravity="left"
-                android:text="Anemometer"
-                android:textSize="14dp"
-                android:backgroundTint="#FF5733">
-            </Button>
-
-        </TableRow>
     </LinearLayout>
 
     <Button
