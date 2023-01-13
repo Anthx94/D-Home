@@ -13,6 +13,7 @@ public class home extends AppCompatActivity {
     Button bComfort;
     Button bWeather;
     Button bSecurity;
+    Button bLogout;
 
 
     @Override
@@ -49,6 +50,12 @@ public class home extends AppCompatActivity {
                 openSecurity();
             }
         });
+
+        bLogout = (Button) findViewById(R.id.button_Logout_id);
+        bLogout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) { logout(); }
+        });
     }
 
     public void openComfort(){
@@ -64,5 +71,10 @@ public class home extends AppCompatActivity {
     public void openSecurity(){
         Intent intentSecurity = new Intent(this, security.class);
         startActivity(intentSecurity);
+    }
+
+    public void logout(){
+        Intent intentLogout = new Intent(this, MainActivity.class);
+        startActivity(intentLogout);
     }
 }
