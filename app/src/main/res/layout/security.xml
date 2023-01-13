@@ -33,7 +33,8 @@
                 android:layout_gravity="center"
                 android:text="Camera"
                 android:textSize="14dp"
-                android:backgroundTint="#FF5733">
+                android:backgroundTint="#FF5733"
+                android:textColor="@color/white">
             </Button>
 
             <Button
@@ -46,7 +47,8 @@
                 android:layout_gravity="center"
                 android:text="Sound"
                 android:textSize="14dp"
-                android:backgroundTint="#FF5733">
+                android:backgroundTint="#FF5733"
+                android:textColor="@color/white">
             </Button>
 
 
@@ -61,7 +63,8 @@
         android:layout_marginRight="100dp"
         android:layout_marginBottom="80dp"
         android:text="Home"
-        android:backgroundTint="#0000FF">
+        android:backgroundTint="#0000FF"
+        android:textColor="@color/white">
     </Button>
 
 </RelativeLayout>

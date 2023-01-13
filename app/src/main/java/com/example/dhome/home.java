@@ -14,6 +14,7 @@ public class home extends AppCompatActivity {
     Button bWeather;
     Button bSecurity;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

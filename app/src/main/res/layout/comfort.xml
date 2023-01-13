@@ -40,7 +40,8 @@
                 android:layout_gravity="left"
                 android:text="02"
                 android:textSize="14dp"
-                android:backgroundTint="#FF5733">
+                android:backgroundTint="#FF5733"
+                android:textColor="@color/white">
             </Button>
 
             <Button
@@ -52,7 +53,8 @@
                 android:layout_gravity="left"
                 android:text="Luminosity"
                 android:textSize="14dp"
-                android:backgroundTint="#FF5733">
+                android:backgroundTint="#FF5733"
+                android:textColor="@color/white">
             </Button>
 
         </TableRow>
@@ -73,7 +75,8 @@
                 android:layout_gravity="left"
                 android:text="Temperature"
                 android:textSize="14dp"
-                android:backgroundTint="#FF5733">
+                android:backgroundTint="#FF5733"
+                android:textColor="@color/white">
             </Button>
 
             <Button
@@ -85,7 +88,8 @@
                 android:layout_gravity="left"
                 android:text="Humidity"
                 android:textSize="14dp"
-                android:backgroundTint="#FF5733">
+                android:backgroundTint="#FF5733"
+                android:textColor="@color/white">
             </Button>
 
         </TableRow>
@@ -100,7 +104,8 @@
         android:layout_marginRight="100dp"
         android:layout_marginBottom="80dp"
         android:text="Home"
-        android:backgroundTint="#0000FF">
+        android:backgroundTint="#0000FF"
+        android:textColor="@color/white">
     </Button>
 
 </RelativeLayout>
