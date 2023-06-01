@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".security"
-    android:background="#7393B3">
+    android:background="@color/white"
+    tools:context=".security">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,41 +15,43 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:fontFamily="@font/lato_bold"
+            android:gravity="center"
             android:text="SECURITY"
-            android:textSize="35dp"
             android:textColor="@color/black"
-            android:layout_marginTop="30dp"
-            android:gravity="center">
-        </TextView>
+            android:textSize="35dp"></TextView>
 
 
-            <Button
-                android:id="@+id/button_Security_CAMERA_id"
-                android:layout_marginTop="110dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:height="150dp"
-                android:width="150dp"
-                android:layout_gravity="center"
-                android:text="Camera"
-                android:textSize="14dp"
-                android:backgroundTint="#FF5733"
-                android:textColor="@color/white">
-            </Button>
+        <Button
+            android:id="@+id/button_Security_CAMERA_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="110dp"
+            android:width="150dp"
+            android:height="150dp"
+            android:backgroundTint="#FF5733"
+            android:fontFamily="@font/lato_bold"
+            android:text="Camera"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            app:cornerRadius="25px"></Button>
 
-            <Button
-                android:id="@+id/button_Security_SOUND_id"
-                android:layout_marginTop="35dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:height="150dp"
-                android:width="150dp"
-                android:layout_gravity="center"
-                android:text="Sound"
-                android:textSize="14dp"
-                android:backgroundTint="#FF5733"
-                android:textColor="@color/white">
-            </Button>
+        <Button
+            android:id="@+id/button_Security_SOUND_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="35dp"
+            android:width="150dp"
+            android:height="150dp"
+            android:backgroundTint="#FF5733"
+            android:fontFamily="@font/lato_bold"
+            android:text="Sound"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            app:cornerRadius="25px"></Button>
 
 
     </LinearLayout>
@@ -62,9 +64,10 @@
         android:layout_marginLeft="100dp"
         android:layout_marginRight="100dp"
         android:layout_marginBottom="80dp"
-        android:text="Home"
         android:backgroundTint="#0000FF"
-        android:textColor="@color/white">
-    </Button>
+        android:fontFamily="@font/lato_bold"
+        android:text="Home"
+        android:textColor="@color/white"
+        app:cornerRadius="25px"></Button>
 
 </RelativeLayout>

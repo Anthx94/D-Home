@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".weather"
-    android:background="#7393B3">
+    android:background="@color/white"
+    tools:context=".weather">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,13 +15,12 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:fontFamily="@font/lato_bold"
+            android:gravity="center"
             android:text="WEATHER"
-            android:textSize="35dp"
             android:textColor="@color/black"
-            android:layout_marginTop="30dp"
-            android:gravity="center">
-        </TextView>
-
+            android:textSize="35dp"></TextView>
 
 
         <TableRow
@@ -34,28 +33,30 @@
                 android:id="@+id/button_Weather_AP_id"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:height="150dp"
-                android:width="150dp"
-                android:layout_marginRight="35dp"
                 android:layout_gravity="left"
-                android:text="Atmospheric pressure"
-                android:textSize="14dp"
+                android:layout_marginRight="35dp"
+                android:width="150dp"
+                android:height="150dp"
                 android:backgroundTint="#FF5733"
-                android:textColor="@color/white">
-            </Button>
+                android:fontFamily="@font/lato_bold"
+                android:text="Atmospheric pressure"
+                android:textColor="@color/white"
+                android:textSize="14dp"
+                app:cornerRadius="25px"></Button>
 
             <Button
                 android:id="@+id/button_Weather_UV_id"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:height="150dp"
-                android:width="150dp"
                 android:layout_gravity="left"
-                android:text="UV"
-                android:textSize="14dp"
+                android:width="150dp"
+                android:height="150dp"
                 android:backgroundTint="#FF5733"
-                android:textColor="@color/white">
-            </Button>
+                android:fontFamily="@font/lato_bold"
+                android:text="UV"
+                android:textColor="@color/white"
+                android:textSize="14dp"
+                app:cornerRadius="25px"></Button>
 
         </TableRow>
 
@@ -69,28 +70,30 @@
                 android:id="@+id/button_Weather_TEMPERATURE_id"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:height="150dp"
-                android:width="150dp"
-                android:layout_marginRight="35dp"
                 android:layout_gravity="left"
-                android:text="Temperature"
-                android:textSize="14dp"
+                android:layout_marginRight="35dp"
+                android:width="150dp"
+                android:height="150dp"
                 android:backgroundTint="#FF5733"
-                android:textColor="@color/white">
-            </Button>
+                android:fontFamily="@font/lato_bold"
+                android:text="Temperature"
+                android:textColor="@color/white"
+                android:textSize="14dp"
+                app:cornerRadius="25px"></Button>
 
             <Button
                 android:id="@+id/button_Weather_ANEMOMETER_id"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:height="150dp"
-                android:width="150dp"
                 android:layout_gravity="left"
-                android:text="Anemometer"
-                android:textSize="14dp"
+                android:width="150dp"
+                android:height="150dp"
                 android:backgroundTint="#FF5733"
-                android:textColor="@color/white">
-            </Button>
+                android:fontFamily="@font/lato_bold"
+                android:text="Anemometer"
+                android:textColor="@color/white"
+                android:textSize="14dp"
+                app:cornerRadius="25px"></Button>
 
         </TableRow>
     </LinearLayout>
@@ -103,9 +106,10 @@
         android:layout_marginLeft="100dp"
         android:layout_marginRight="100dp"
         android:layout_marginBottom="80dp"
-        android:text="Home"
         android:backgroundTint="#0000FF"
-        android:textColor="@color/white">
-    </Button>
+        android:fontFamily="@font/lato_bold"
+        android:text="Home"
+        android:textColor="@color/white"
+        app:cornerRadius="25px"></Button>
 
 </RelativeLayout>

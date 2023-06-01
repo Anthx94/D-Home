@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".home"
-    android:background="#7393B3">
+    android:background="@color/white"
+    tools:context=".home">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,46 +16,50 @@
             android:id="@+id/button_Logout_id"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="15dp"
             android:layout_gravity="right"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="15dp"
+            android:backgroundTint="#C70039"
+            android:fontFamily="@font/lato_bold"
             android:text="Logout"
-            android:backgroundTint="#C70039">
-        </Button>
+            app:cornerRadius="25px"></Button>
 
 
         <Button
             android:id="@+id/button_Comfort_id"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="150dp"
+            android:layout_height="65dp"
             android:layout_marginLeft="100dp"
+            android:layout_marginTop="130dp"
             android:layout_marginRight="100dp"
+            android:backgroundTint="#0000FF"
+            android:fontFamily="@font/lato_bold"
             android:text="comfort"
-            android:backgroundTint="#0000FF">
-        </Button>
+            app:cornerRadius="25px"></Button>
 
         <Button
             android:id="@+id/button_Weather_id"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
+            android:layout_height="65dp"
             android:layout_marginLeft="100dp"
+            android:layout_marginTop="50dp"
             android:layout_marginRight="100dp"
+            android:backgroundTint="#0000FF"
+            android:fontFamily="@font/lato_bold"
             android:text="Weather"
-            android:backgroundTint="#0000FF">
-        </Button>
+            app:cornerRadius="25px"></Button>
 
         <Button
             android:id="@+id/button_Security_id"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
+            android:layout_height="65dp"
             android:layout_marginLeft="100dp"
+            android:layout_marginTop="50dp"
             android:layout_marginRight="100dp"
+            android:backgroundTint="#0000FF"
+            android:fontFamily="@font/lato_bold"
             android:text="Security"
-            android:backgroundTint="#0000FF">
-        </Button>
+            app:cornerRadius="25px"></Button>
 
     </LinearLayout>
 

@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ResetPass"
-    android:background="#7393B3">
+    android:background="@color/white"
+    tools:context=".ResetPass">
 
 
     <LinearLayout
@@ -16,67 +16,77 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="D-Home Reset Pass"
-            android:textSize="35dp"
+            android:layout_marginTop="70dp"
+            android:fontFamily="@font/lato_bold"
+            android:gravity="center"
+            android:text="D-Home"
             android:textColor="@color/black"
-            android:layout_marginTop="30dp"
-            android:gravity="center">
-        </TextView>
+            android:textSize="35dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:fontFamily="@font/lato"
+            android:gravity="center"
+            android:text="Reset Pass"
+            android:textColor="@color/black"
+            android:textSize="20dp"></TextView>
 
         <EditText
             android:id="@+id/text_ResetPass_IP_id"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="120dp"
             android:layout_marginLeft="50dp"
+            android:layout_marginTop="70dp"
             android:layout_marginRight="50dp"
+            android:fontFamily="@font/lato"
             android:hint="IP"
-            android:textColor="@color/black">
-        </EditText>
+            android:textColor="@color/black"></EditText>
 
         <EditText
             android:id="@+id/text_ResetPass_Username_id"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
             android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
             android:layout_marginRight="50dp"
+            android:fontFamily="@font/lato"
             android:hint="Username"
-            android:textColor="@color/black">
-        </EditText>
+            android:textColor="@color/black"></EditText>
 
         <EditText
             android:id="@+id/text_ResetPass_NewPassword_id"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
             android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
             android:layout_marginRight="50dp"
-            android:textColor="@color/black"
-            android:hint="New Password">
-        </EditText>
+            android:fontFamily="@font/lato"
+            android:hint="New Password"
+            android:textColor="@color/black"></EditText>
 
         <EditText
             android:id="@+id/text_ResetPass_ConfPassword_id"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
             android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
             android:layout_marginRight="50dp"
-            android:textColor="@color/black"
-            android:hint="Confirm Password">
-        </EditText>
+            android:fontFamily="@font/lato"
+            android:hint="Confirm Password"
+            android:textColor="@color/black"></EditText>
 
         <Button
             android:id="@+id/button_Reset_id"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="80dp"
             android:layout_marginLeft="100dp"
+            android:layout_marginTop="80dp"
             android:layout_marginRight="100dp"
+            android:backgroundTint="#0000FF"
+            android:fontFamily="@font/lato_bold"
             android:text="Reset"
-            android:backgroundTint="#0000FF">
-        </Button>
+            app:cornerRadius="25px"></Button>
 
 
     </LinearLayout>
